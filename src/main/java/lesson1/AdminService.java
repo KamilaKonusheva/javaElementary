@@ -17,12 +17,12 @@ public class AdminService implements Service {
         while (scanner.hasNextLine()) {
             String mail = scanner.nextLine();
             if (mail.equals(mainEntity)) {
-               return true;
+            return true;
             }
         }
-        scanner.close();
-        fileReader.close();
-        return false;
+            scanner.close();
+            fileReader.close();
+            return false;
     }
 
     @Override
@@ -31,5 +31,4 @@ public class AdminService implements Service {
         fileWriter.write(String.valueOf(mainEntity)+ "\n");
         fileWriter.close();
     }
-
 }
