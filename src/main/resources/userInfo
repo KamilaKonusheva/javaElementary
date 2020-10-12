@@ -1,0 +1,18 @@
+Kamila
+Konusheva
+22
+konusevak@gmail.com
+12345s
+USER
+User{}
+Admin{}
+User{}
+Admin{}
+MainEntity{name='alex', surname='frolov', age=23, mail='alex2000@mail.ru', password='2222as', role='USER'}
+Admin{}
+MainEntity{name='alex', surname='frolov', age=23, mail='alex2000@mail.ru', password='2222as', role='USER'}
+MainEntity{name='mike', surname='antonenko', age=33, mail='mike@gmail.com', password='33333', role='ADMIN'}
+MainEntity{name='alex', surname='frolov', age=23, mail='alex2000@mail.ru', password='2222as', role='USER'}
+MainEntity{name='mike', surname='antonenko', age=33, mail='mike@gmail.com', password='33333', role='ADMIN'}
+MainEntity{name='alex', surname='frolov', age=23, mail='alex2000@mail.ru', password='2222as', role='USER'}
+MainEntity{name='mike', surname='antonenko', age=33, mail='mike@gmail.com', password='33333', role='ADMIN'}
