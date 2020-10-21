@@ -22,7 +22,6 @@ public class Helper {
         }
     }
 
-
     public void idCheck(String senderId, String recipientId) {
         if (!senderId.equals(recipientId)) {
             throw new UserExpectedError();
