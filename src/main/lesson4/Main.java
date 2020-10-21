@@ -51,7 +51,8 @@ public class Main {
                 System.out.println("The amount you entered exceeds the limit of 1000. Try again!");
             }
         } while (amount > 1000);
-
+        scanner.close();
+        
         TransactionService transactionService = new TransactionService();
         transactionService.moneySender(client, accountId);
         System.out.println("Your transfer is succeed!");
