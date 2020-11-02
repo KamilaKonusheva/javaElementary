@@ -8,7 +8,7 @@ import static javax.print.attribute.standard.MediaSizeName.A;
 public class InfoCheckHelper {
 
     public boolean phoneCheck(String stringPhone) {
-        String phoneRegex = "^((380)|(\\+38)|(0))([0-9]{7,9})$";
+        String phoneRegex = "^((380)|(\\+38)|(0))([0-9]{9})$";
         Pattern compile = Pattern.compile(phoneRegex);
         Matcher phoneMatcher = compile.matcher(stringPhone);
         boolean valid = stringPhone.matches(phoneRegex);
