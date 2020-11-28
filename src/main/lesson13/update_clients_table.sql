@@ -1,0 +1,11 @@
+ALTER TABLE clients ADD client_age int NULL;
+UPDATE clients SET client_age = 33 WHERE id = 1;
+UPDATE clients SET client_age = 17 WHERE id = 2;
+UPDATE clients SET client_age = 22 WHERE id = 3;
+UPDATE clients SET client_age = 20 WHERE id = 4;
+UPDATE clients SET client_age = 25 WHERE id = 5;
+UPDATE clients SET client_age = 15 WHERE id = 6;
+UPDATE clients SET client_age = 77 WHERE id = 7;
+UPDATE clients SET client_age = 34 WHERE id = 8;
+UPDATE clients SET client_age = 45 WHERE id = 9;
+UPDATE clients SET client_age = 55 WHERE id = 10;
