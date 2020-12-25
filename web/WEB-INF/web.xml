@@ -4,20 +4,20 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <servlet>
-        <servlet-name>Cats life</servlet-name>
+        <servlet-name>CatsLife</servlet-name>
         <servlet-class>lesson19.CatsLifeServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Cats life</servlet-name>
+        <servlet-name>CatsLife</servlet-name>
         <url-pattern>catsLife</url-pattern>
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>Parrots life</servlet-name>
+        <servlet-name>ParrotsLife</servlet-name>
         <servlet-class>lesson19.ParrotsLifeServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Parrots life</servlet-name>
+        <servlet-name>ParrotsLife</servlet-name>
         <url-pattern>parrotsLife</url-pattern>
     </servlet-mapping>
 </web-app>
