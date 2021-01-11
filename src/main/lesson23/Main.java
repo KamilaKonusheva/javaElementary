@@ -26,6 +26,7 @@ public class Main {
         OptionalExample example = new OptionalExample();
         System.out.println(example.emailCheck("kamila@mail.ru"));
         System.out.println(example.emailCheck("kamila"));
+        // System.out.println(example.emailCheck(null)); - будет ошибка 
 
         // Functional Interface
 
