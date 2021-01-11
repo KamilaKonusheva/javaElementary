@@ -43,7 +43,7 @@ public class Main {
         printer.accept("hello");
 
         Function<Integer, String> numbers = (value) -> {
-            if (value == 0 || value > 10) {
+            if (value <= 0 || value > 10) {
                 //System.out.println("unknown");
                 return "unknown";
             }
